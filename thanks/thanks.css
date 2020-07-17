@@ -1,0 +1,23 @@
+body{
+    background-color:#253439;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    
+}
+header{    
+    margin-top: 10%;   
+    
+}
+header h1{
+    font-size:5rem;
+    font-family:'Work Sans', sans-serif;
+    background: linear-gradient(to top,#014b38, #1993ac);
+    
+    background-clip:text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 1rem;
+    user-select: none;
+    
+}

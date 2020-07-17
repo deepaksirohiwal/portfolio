@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Fondamento&display=swap" rel="stylesheet">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <div class="menu-toggler">
+            <div class="bar half start"></div>
+            <div class="bar"></div>
+            <div class="bar half end"></div>
+        </div>
+        <nav class="top-nav">
+            <ul class="nav-list">
+                <li>
+                    <a href="index.html" class='nav-link'>Home</a>
+                </li>
+                <li>
+                    <a href="#about" class='nav-link'>About</a>
+                </li>
+                <li>
+                    <a href="#skills" class='nav-link'>Skills</a>
+                </li>
+                <li>
+                    <a href="#projects" class='nav-link'>Projects</a>
+                </li>
+                <li>
+                    <a href="#contact" class='nav-link'>Contact</a>
+                </li>              
+                        
+            </ul>
+ 
+        </nav>
+        <div class='landing-text'>
+            <h1>
+                Deepak Sirohiwal
+            </h1>
+            <h3>
+                Front End Developer 
+            </h3>
+        </div>
+    </header>
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="profile-img "data-aos='fade-right' data-aos-delay=300>
+                <img src="../pics/person.jpg" alt="">  
+            </div>
+            <div class="about-details" data-aos='fade-left' data-aos-delay=600>
+                <div class="about-heading">
+                    <h1>About</h1>
+                    <h6>Myself</h6>
+                </div>
+                <p>I am a self-taught Web developer with a passion for designing and developing interactive Websites and User Interface. I have
+                    equiped myself with more than 1300 hour of coding experience.
+                 </p>
+                <div class="social-media">
+                    <ul class="nav-list">
+                        <li>
+                            <a href="https://www.linkedin.com/in/deepak-sirohiwal-22330613a/" class="icon-link" target="_blank">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/thepak_/" class="icon-link"target="_blank">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/deepaksirohiwal" class="icon-link"target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Skills</h1>
+            </div>
+            <div class="my-skills">
+                <div class="skill" data-aos='fade-in' data-aos-delay=300>
+                    <div class="icon-container">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <h1>Web Design</h1>
+                    <p>Designing a website's structure and it's functional prototype with simple and interactive user experience</p>
+                </div>
+                <div class="skill" data-aos='fade-in' data-aos-delay=600>
+                    <div class="icon-container">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h1>Web Development</h1>
+                    <p>Building visual components of website using HTML,CSS and JavaScript. Structuring the backend using Express.js,
+                        Mongoose and MongoDB
+                    </p>
+                </div>                
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Projects</h1>
+                <h6>Some of my works</h6>
+            </div>
+            <div class="project-item">
+                <div class="project-img has-margin-right" data-aos='fade-right' data-aos-delay=300>
+                    <img src="../pics/movie.jpg" alt="">
+                </div>
+                <div class="project-description"data-aos='fade-left' data-aos-delay=600>
+                    <h6>React.js</h6>
+                    <h1>Movie List Database</h1>
+                    <p>Build a Movie search service, that gives information about the
+                        movie based on keywords provided by the user</p>
+                    <a href="https://github.com/deepaksirohiwal/Movie-database" class="cta"target="_blank">View Details</a>
+                </div>
+            </div>
+
+            <div class="project-item">
+                <div class="project-description has-margin-right"data-aos='fade-right' data-aos-delay=900>
+                    <h6>Full-stack Exercise Logger API</h6>
+                    <h1>Exercise Logger</h1>
+                    <p>Built REST API that stores JSON exercise logs in MongoDB</p>
+                    <a href="https://github.com/deepaksirohiwal/exercise-Tracker" class="cta" target="_blank">View Details</a>
+                </div>
+                <div class="project-img" data-aos='fade-left' data-aos-delay=1200>
+                    <img src="../pics/exercise.jpg" alt="">
+                </div>               
+            </div>
+
+            <div class="project-item">
+                <div class="project-img has-margin-right"data-aos='fade-right' data-aos-delay=300 >
+                    <img src="../pics/graph.jpg" alt="">
+                </div>
+                <div class="project-description"data-aos='fade-left' data-aos-delay=600>
+                    <h6>D3.js</h6>
+                    <h1>Scattered plot graph</h1>
+                    <p>Build a graph by extracting data from JSON and use tooltip to get
+                        more informations</p>
+                    <a href="https://codepen.io/deepak-sirohiwal/full/xxwPdvX" class="cta" target="_blank">View Details</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Contact</h1>
+                <h3>Get in touch with me</h3>
+            </div>
+            <form action="/contact" method="post" data-aos='fade-up' data-aos-delay=300>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required> 
+                <label for="email">E-Mail:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your E-mail" required> 
+                <label for="message">Message</label>
+                <textarea name="message" id="message" cols="10" rows="10"></textarea>
+                <input type="submit" value="submit">
+            </form>
+        </div>
+     </section>
+
+    <footer class="copyright">
+        <div class="up" id="up" >
+            <i class="fas fa-chevron-up"></i>         
+        </div>
+        <p>&copy; 2020 Deepak Sirohiwal</p>
+
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+    
+</body>
+</html>
