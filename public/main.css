@@ -223,6 +223,11 @@ li{
 .profile-img{
         flex:1;
         margin-right:5rem;
+        
+}
+.profileimg{
+    width:70%;
+    height:40%;
 }
 .about-details{
     flex:1;
