@@ -81,8 +81,8 @@ app.post('/contact',contactAdding, (req,res)=>{
         
         //config mail details
         const mailData={
-            from:'deepak.sirohiwal@xaviers.edu.in',
-            to:'deepaksirohiwall@gmail.com',
+            from:process.env.EMAIL,
+            to:process.env.EMAILTO,
             subject:"People wants to contact you!!",
             text:`${[req.body.name,req.body.email,req.body.message]}`
             
